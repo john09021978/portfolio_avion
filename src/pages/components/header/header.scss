@@ -1,0 +1,35 @@
+$backGroundColor: #2A254B;
+
+
+
+    div {
+
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 704px;
+        justify-content: center;
+        align-items: center;
+
+        .headerWrapper {
+            background-color: $backGroundColor;
+            width: 80vw;
+            height: 70vh;
+            // align-self: center;
+            // justify-self: center;
+
+            display: flex;
+            flex-direction: row;
+
+            .textWrapper {
+                width: 100%;
+                height: 100%;
+            }
+
+            img {
+                // width: 100%;
+                height: 100%;
+            }
+
+        }
+    }

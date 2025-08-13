@@ -1,0 +1,35 @@
+.navbarWrapper {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 132px;
+}
+.navbarWrapper .topwrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  margin: 0%;
+}
+.navbarWrapper .topwrapper .searchWrapper {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.navbarWrapper .downWrapper {
+  width: 50vw;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+}
+.navbarWrapper .downWrapper a {
+  text-decoration: none;
+  color: #22202E;
+  font-size: 24px;
+  font-weight: 400;
+}/*# sourceMappingURL=navbar.css.map */

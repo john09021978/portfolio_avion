@@ -1,0 +1,22 @@
+div {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 704px;
+  justify-content: center;
+  align-items: center;
+}
+div .headerWrapper {
+  background-color: #2A254B;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+div .headerWrapper .textWrapper {
+  width: 100%;
+  height: 100%;
+}
+div .headerWrapper img {
+  height: 100%;
+}/*# sourceMappingURL=header.css.map */
