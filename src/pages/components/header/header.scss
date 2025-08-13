@@ -1,5 +1,5 @@
 $backGroundColor: #2A254B;
-
+$whiteText: #FFFFFF;
 
 
     div {
@@ -24,6 +24,31 @@ $backGroundColor: #2A254B;
             .textWrapper {
                 width: 100%;
                 height: 100%;
+            }
+
+            .topWrapper {
+                width: 513px;
+                height: 187px;
+                display: flex;
+                flex-direction: column;
+
+                .topTextWrapper {
+                    width: 513px;
+                    height: 90px;
+                    display: flex;
+                    flex-direction: column;
+
+                    p{
+                        font-family: Clash Display;
+                        font-weight: 400;
+                        font-style: Regular;
+                        font-size: 32px;
+                        color: $whiteText;
+                        line-height: 140%;
+                        letter-spacing: 0%;
+
+                    }
+                }
             }
 
             img {
