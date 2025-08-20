@@ -1,35 +1,29 @@
 import './navbar.css'
-// import search from '../images/Search.png'
-// import basket from '../images/Shopping--cart.png'
-// import user from '../images/User--avatar.png'
+import search from '../images/Search.png'
+import basket from '../images/Shopping--cart.png'
+import user from '../images/User--avatar.png'
 
 function Navbar() {
     return (
         <div className='navbarWrapper'>
-            {/* <div className="topWrapper">
-                <div className="searchWrapper">
-                    <a href="*">
-                        <img src={search} alt="" />
+            <div className="topWrapper">
+                
+                    <a href="*" id='search'>
+                        
                         </a>
-                </div>
-                <div className="logoWrapper">
-                    <a href="*" className='logo'>Avion</a>
-                </div>
+                
+                <a href="*" className='logo' id='logo'>Avion</a>
                 <div className="basketWrapper">
-                    <div className="basketWrap">
-                        <a href="*">
-                            <img src={basket} alt="" />
+                    
+                        <a href="*" id='basket'>
+
                         </a>
-                    </div>
-                    <div className="userWrap">
-                        <span>
-                            <a href="*">
-                                <img src={user} alt="" />
-                            </a>
-                        </span>
-                    </div>
+                    
+                    <a href="*" id='user' >
+                        
+                    </a>
                 </div>
-            </div> */}
+            </div>
             <div className="downWrapper">
                 <a href="*">Plant pots</a>
                 <a href="*">Ceramics</a>

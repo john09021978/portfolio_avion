@@ -3,20 +3,50 @@
   padding: 0%;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 1440px;
   height: 132px;
 }
-.navbarWrapper .topwrapper {
+.navbarWrapper .topWrapper {
+  width: 1384px;
+  height: 61px;
   display: flex;
   flex-direction: row;
-  padding: 0%;
-  margin: 0%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbarWrapper .topwrapper .searchWrapper {
-  width: 50px;
-  height: 50px;
+.navbarWrapper .topWrapper #search {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/Search.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.navbarWrapper .topWrapper #logo {
+  width: 65px;
+  height: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.navbarWrapper .topWrapper .basketWrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 50px;
+  height: 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbarWrapper .topWrapper .basketWrapper #basket {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/Shopping--cart.png);
+}
+.navbarWrapper .topWrapper .basketWrapper #user {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/User--avatar.png);
 }
 .navbarWrapper .downWrapper {
   width: 50vw;

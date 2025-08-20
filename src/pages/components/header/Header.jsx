@@ -19,14 +19,17 @@ function Header() {
                     <div className="downWrapper">
 
                     </div>
+
+                    
                 </div>
                 <img src={chair} alt="" />
-                {/* <div className="imageWrapper">
-                    <img src={chair} alt="" />
-                </div> */}
+                
             </div>
-            
         </div>
+
+            
+            
+        
     )
 }
 

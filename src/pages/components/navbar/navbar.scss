@@ -7,28 +7,64 @@ $mainTextColor: #22202E;
     padding: 0%;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 1440px;
     height: 132px;
 
-    .topwrapper {
+    .topWrapper {
+        width: 1384px;
+        height: 61px;
         display: flex;
         flex-direction: row;
-        padding: 0%;
-        margin: 0%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
 
-        .searchWrapper {
-            width: 50px;
-            height: 50px;
-            display: flex;
-            flex-direction: column;
-            
+
+        #search {
+            width: 16px;
+            height: 16px;
+            background-image: url(../images/Search.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            // top: 26px;
+            // left: 28px;
+
         }
-        
-        
 
+        #logo {
+            width: 65px;
+            height: 30px;
+            font-size: 24px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        .basketWrapper {
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            height: 16px;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            #basket {
+                width: 16px;
+                height: 16px;
+                background-image: url(../images/Shopping--cart.png);
+            }
+
+            #user {
+                width: 16px;
+                height: 16px;
+                background-image: url(../images/User--avatar.png);
+            }
+        }
 
     }
 
+    
     .downWrapper {
         width: 50vw;
         height: 61px;
@@ -43,6 +79,7 @@ $mainTextColor: #22202E;
             color: $mainTextColor;
             font-size: 24px;
             font-weight: 400;
+            // background-image: url(../images/Search.png);
         }
     }
 
