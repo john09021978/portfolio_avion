@@ -5,26 +5,28 @@ import './header.css'
 
 function Header() {
     return (
-        <div>
-
-            <div className="headerWrapper">
+        <div className='headerWrapper'>
+            <div className="wrapWrapper">
                 <div className="textWrapper">
-                    <div className="topWrapper">
-                        <div className="topTextWrapper">
+                    <div className="topTextWrapper">
+                        <div className="upText">
                             <p>
                                 The furniture brand for the future, with timeless designs
                             </p>
                         </div>
+                        <div className="downText">
+                            <p>
+                                View collection
+                            </p>
+                        </div>
                     </div>
-                    <div className="downWrapper">
-
-                    </div>
-
-                    
                 </div>
-                <img src={chair} alt="" />
+                <div className="imageWrapper">
+                    <img src={chair} alt="" />
+                </div>
                 
             </div>
+            
         </div>
 
             

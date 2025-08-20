@@ -5,6 +5,8 @@
   flex-direction: column;
   width: 1440px;
   height: 132px;
+  left: 28px;
+  position: relative;
 }
 .navbarWrapper .topWrapper {
   width: 1384px;
@@ -49,8 +51,10 @@
   background-image: url(../images/User--avatar.png);
 }
 .navbarWrapper .downWrapper {
-  width: 50vw;
-  height: 61px;
+  width: 675px;
+  height: 22px;
+  top: 90px;
+  left: 382px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -60,6 +64,6 @@
 .navbarWrapper .downWrapper a {
   text-decoration: none;
   color: #22202E;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
 }/*# sourceMappingURL=navbar.css.map */

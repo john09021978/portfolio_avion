@@ -1,4 +1,5 @@
-$mainTextColor: #22202E;
+$blackTextColor: #22202E;
+$whiteTextColor: #FFFFFF;
 
 
 
@@ -9,6 +10,8 @@ $mainTextColor: #22202E;
     flex-direction: column;
     width: 1440px;
     height: 132px;
+    left: 28px;
+    position: relative;
 
     .topWrapper {
         width: 1384px;
@@ -38,6 +41,7 @@ $mainTextColor: #22202E;
             font-size: 24px;
             font-weight: 400;
             text-decoration: none;
+            color: $blackTextColor;
         }
 
         .basketWrapper {
@@ -66,8 +70,15 @@ $mainTextColor: #22202E;
 
     
     .downWrapper {
-        width: 50vw;
-        height: 61px;
+        // width: 50vw;
+        // height: 61px;
+        width: 675px;
+height: 22px;
+
+top: 90px;
+left: 382px;
+
+
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -77,10 +88,11 @@ $mainTextColor: #22202E;
         a {
             text-decoration: none;
             color: $mainTextColor;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 400;
             // background-image: url(../images/Search.png);
         }
     }
 
 }
+

@@ -1,7 +1,5 @@
 import './navbar.css'
-import search from '../images/Search.png'
-import basket from '../images/Shopping--cart.png'
-import user from '../images/User--avatar.png'
+
 
 function Navbar() {
     return (
@@ -10,7 +8,7 @@ function Navbar() {
                 
                     <a href="*" id='search'>
                         
-                        </a>
+                    </a>
                 
                 <a href="*" className='logo' id='logo'>Avion</a>
                 <div className="basketWrapper">

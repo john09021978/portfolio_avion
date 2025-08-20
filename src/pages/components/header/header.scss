@@ -1,72 +1,98 @@
 $backGroundColor: #2A254B;
 $whiteText: #FFFFFF;
+$font: "Onest", sans-serif;
 
 
-   
-
-div {
-
+.headerWrapper {
     width: 1440px;
     height: 704px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 
-
-
-    .headerWrapper {
+    .wrapWrapper {
+        width: 1280px;
+        height: 584px;
+        display: flex;
+        flex-direction: row;
         background-color: $backGroundColor;
-            width: 1280px;
+        padding: 0%;
+        margin: 0%;
+
+        .textWrapper {
+            width: 760px;
             height: 584px;
-            left: 200px;
-            // top: 60px;
-            // align-self: center;
-            // justify-self: center;
 
-            display: flex;
-            flex-direction: row;
-
-            .textWrapper {
-                width: 100%;
-                height: 100%;
-
-                .topWrapper {
+            .topTextWrapper {
                 width: 513px;
                 height: 187px;
-                display: flex;
-                flex-direction: column;
+                
                 top: 60px;
                 left: 60px;
-                gap: 41px;
+                position: relative;
+                .upText {
 
-                .topTextWrapper {
                     width: 513px;
                     height: 90px;
-                    display: flex;
-                    flex-direction: column;
 
-                    p{
-                        font-family: "Clash" "Display";
+
+                    p {
+                        font-family: "Onest", sans-serif;
                         font-weight: 400;
-                        font-style: Regular;
                         font-size: 32px;
                         color: $whiteText;
-                        line-height: 140%;
-                        letter-spacing: 0%;
-
+                        width: 100%;
                     }
                 }
-            }
+
+                .downText {
+
+                    width: 170px;
+                    height: 56px;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+
+                    p {
+                        
+                    }
+                }
+
+
+
 
             }
+        }
 
-            
+        .imageWrapper {
+            width: 520px;
+            height: 584px;
+            // background-image: url(../images/Right\ Image.png);
+            background-size: cover;
+            // background-repeat: no-repeat;
+
             img {
                 width: 520px;
                 height: 584px;
 
             }
-
         }
+
+
+
+    }
 }
+
+
+
+
+
+
+    
 
         
     
