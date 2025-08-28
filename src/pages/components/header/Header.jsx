@@ -20,6 +20,13 @@ function Header() {
                             </p>
                         </div>
                     </div>
+                    <div className="bottomTextWrapper">
+                        <p>
+                            A new era in eco friendly furniture with Avelon, the French luxury retail brand
+with nice fonts, tasteful colors and a beautiful way to display things digitally 
+using modern web technologies.
+                        </p>
+                    </div>
                 </div>
                 <div className="imageWrapper">
                     <img src={chair} alt="" />

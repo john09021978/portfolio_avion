@@ -1,0 +1,69 @@
+.feautersWrapper {
+  padding: 0%;
+  margin: 0%;
+  width: 1440px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feautersWrapper .feautersHeader {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.feautersWrapper .feautersHeader p {
+  width: inherit;
+  height: auto;
+  text-align: center;
+  font-family: "Clash Display";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.feautersWrapper .feautersBody {
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  height: 190px;
+  gap: auto;
+}
+.feautersWrapper .feautersBody a {
+  text-decoration: none;
+  color: #2A254B;
+  cursor: pointer;
+}
+.feautersWrapper .feautersBody a [class^=wrap-] {
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 124px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 0%;
+  margin: 0%;
+}
+.feautersWrapper .feautersBody a [class^=wrap-] img {
+  width: 24px;
+  height: 24px;
+}
+.feautersWrapper .feautersBody a [class^=wrap-] h1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  padding: inherit;
+  margin: inherit;
+}
+.feautersWrapper .feautersBody a [class^=wrap-] h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  width: 270px;
+  width: inherit;
+  height: 265px;
+  padding: inherit;
+  margin: inherit;
+}/*# sourceMappingURL=features.css.map */

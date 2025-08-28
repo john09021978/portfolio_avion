@@ -1,0 +1,48 @@
+.newListingWrapper {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 744px;
+}
+.newListingWrapper h1 {
+  width: auto;
+  height: auto;
+}
+.newListingWrapper .newListingCardWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1280px;
+  height: 462px;
+}
+.newListingWrapper .newListingCardWrapper a {
+  text-decoration: none;
+  width: 630px;
+  padding: inherit;
+  margin: inherit;
+}
+.newListingWrapper .newListingCardWrapper a [class^=card-] {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  height: 462px;
+}
+.newListingWrapper .newListingCardWrapper a [class^=card-] img {
+  width: inherit;
+  height: 375px;
+}
+.newListingWrapper .newListingCardWrapper a [class^=bigCard-] {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  height: 462px;
+  align-items: flex-start;
+}
+.newListingWrapper .newListingCardWrapper a [class^=bigCard-] img {
+  width: inherit;
+  height: 375px;
+}/*# sourceMappingURL=newListing.css.map */

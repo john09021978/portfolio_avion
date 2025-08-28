@@ -18,6 +18,9 @@
 .headerWrapper .wrapWrapper .textWrapper {
   width: 760px;
   height: 584px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .headerWrapper .wrapWrapper .textWrapper .topTextWrapper {
   width: 513px;
@@ -32,7 +35,7 @@
 }
 .headerWrapper .wrapWrapper .textWrapper .topTextWrapper .upText p {
   font-family: "Onest", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 32px;
   color: #FFFFFF;
   width: 100%;
@@ -42,8 +45,37 @@
   height: 56px;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
+  background-color: rgba(249, 249, 249, 0.1490196078);
+  flex-wrap: nowrap;
+  margin-top: 16px;
+  opacity: 0.85;
+}
+.headerWrapper .wrapWrapper .textWrapper .topTextWrapper .downText p {
+  color: #FFFFFF;
+  opacity: 1;
+  width: inherit;
+  height: auto;
+  text-align: center;
+}
+.headerWrapper .wrapWrapper .textWrapper .bottomTextWrapper {
+  width: 602px;
+  height: 81px;
+  opacity: 1;
+  left: 60px;
+  position: relative;
+  bottom: 50px;
+}
+.headerWrapper .wrapWrapper .textWrapper .bottomTextWrapper p {
+  color: #FFFFFF;
+  width: inherit;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
 .headerWrapper .wrapWrapper .imageWrapper {
   width: 520px;

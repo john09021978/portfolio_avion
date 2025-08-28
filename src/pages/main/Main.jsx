@@ -1,6 +1,8 @@
 import Navbar from '../components/navbar/Navbar'
 import Header from '../components/header/Header'
-import AboutComp from '../components/aboutComp/AboutComp'
+import Feauters from '../components/features/features'
+import Listing from '../components/listings/listings'
+import NewListing from '../components/newListing/newListing'
 
 import './main.css'
 
@@ -9,7 +11,9 @@ function Main() {
         <div className='mainWrapper'>
             <Navbar />
             <Header />
-            <AboutComp />
+            <Feauters />
+            <Listing />
+            <NewListing />
         </div>
     )
 };

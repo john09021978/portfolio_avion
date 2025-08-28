@@ -1,0 +1,35 @@
+
+
+
+.listingWrapper {
+
+    padding: 0%;
+    margin: 0%;
+    width: 1440px;
+    height: 761px;
+    display: flex;
+    flex-direction: row;
+
+
+    a {
+
+        width: 305px;
+        height: 462px;
+        
+
+        [class^="productCard-"] {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 305px;
+                height: 375px;
+
+
+            }
+
+        }
+    }
+
+
+}
